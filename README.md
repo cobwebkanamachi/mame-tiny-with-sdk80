@@ -65,7 +65,7 @@ linux/Makefile] Err
        and redundant strings.
        <img src="https://github.com/cobwebkanamachi/mame-tiny-with-sdk80/blob/main/regexp.jpg" alt="lst to asm diff" title="lst to asm diff"><BR>
 </PRE><BR>
-residue continues here (2025/12/19 initiated)
+residue continues here (2025/12/19 initiated)<BR>
 <img src="https://github.com/cobwebkanamachi/mame-tiny-with-sdk80/blob/main/helloworld-sdk80-asm.jpg" alt="hello world of sdk-80 in asm(binary)" title="hello world"><BR>
 Enjoy!
 
