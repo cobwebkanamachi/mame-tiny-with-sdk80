@@ -50,8 +50,8 @@ linux/Makefile] Error 1
        This file is lst file and on the page header, "ISIS-II 8080/8085 MACRO ASSEMBLER, V4.1" was.
        if you produce asm file from this, you would use vim or regexp to edit remove page headers
        and redundant strings.
+       <img src="https://github.com/cobwebkanamachi/mame-tiny-with-sdk80/blob/main/regexp.jpg" alt="lst to asm diff" title="lst to asm diff"><BR>
 </PRE><BR>
-<!--<img src="https://github.com/cobwebkanamachi/mame-tiny-with-sdk80/blob/main/hilo.jpg" alt="HILO issue" title="HILO issue"><BR>-->
 residue continues here (2025/12/19 initiated)
 Enjoy!
 
