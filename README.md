@@ -24,7 +24,9 @@ linux/Makefile] Error 1
 *** I get how to fix above, i will note here.
 *** sfx file extract to current dir, so makedir mame and specify path mame.
     I did 7z used, i suspect this would affect result of above(now testing it cause).
-   
+*** i search "mame string "_WORKING_DIR = os.getcwd()..."]:63: in function '_premake_main'" on google, 
+    then one of mitigation revealed, i found "Run make REGENIE=1". Could it fix of above?(testing yet).
+
 2. get 2 files from this repo.
    makefile  -> top of mame dir(mv makefile makefile.org, then copy)
    sdk80.cpp -> src\mame\intel (mv sdk80.cpp sdk80.cpp.org, then copy)
