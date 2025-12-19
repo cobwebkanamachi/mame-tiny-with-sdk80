@@ -43,6 +43,10 @@ linux/Makefile] Err
    put it into roms\sdk80.zip
    notice:
     a. sdk80.zip is mear a container of rom binary file.
+       But tiny indeed loads *.a14 in sdk80.zip as monitor of sdk80.
+       so you should change rom file name or ROM_LOAD designation on sdk80.cpp.
+       sdk80.zip should be put on .\roms folder as sdk80.zip to use.
+       It should be same ROM filename in sdk80.zip and filename on ROM_LOAD.
     b. HILO issue https://github.com/mamedev/mame/issues/6324
        if you got this affected, then you would got D command
        annoying phenomenon.
