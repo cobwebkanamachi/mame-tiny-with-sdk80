@@ -39,6 +39,9 @@ linux/Makefile] Error 1
         last line arround ROM_LOAD, if not same, you should tweak)
        Mr.Coward 's file has seen on    
        https://www.retrotechnology.com/restore/sdk80.html
+       This file is lst file and on the page header, "ISIS-II 8080/8085 MACRO ASSEMBLER, V4.1" was.
+       if you produce asm file from this, you would use vim or regexp to edit remove page headers
+       and redundant strings.
 </PRE>
 residue continues here (2025/12/19 initiated)
 Enjoy!
