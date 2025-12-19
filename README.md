@@ -19,7 +19,9 @@ mame(tiny) and sdk-80
 linux/Makefile] Error 1
 
 *** annoyed regenerate this error. please wait to debug this by me. sorry.
-
+*** cp -rp /mnt/c/Users/user/Downloads/mame.org/build /mnt/c/Users/user/Downloads/mame/build
+*** testify residue procedures. 2025/12/19
+   
 2. get 2 files from this repo.
    makefile  -> top of mame dir(mv makefile makefile.org, then copy)
    sdk80.cpp -> src\mame\intel (mv sdk80.cpp sdk80.cpp.org, then copy)
