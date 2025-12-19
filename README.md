@@ -22,6 +22,8 @@ linux/Makefile] Error 1
 *** cp -rp /mnt/c/Users/user/Downloads/mame.org/build /mnt/c/Users/user/Downloads/mame/build
 *** testify residue procedures. 2025/12/19 I forgot how to make it or fix it.
 *** I get how to fix above, i will note here.
+*** sfx file extract to current dir, so makedir mame and specify path mame.
+    I did 7z used, i suspect this would affect result of above(now testing it cause).
    
 2. get 2 files from this repo.
    makefile  -> top of mame dir(mv makefile makefile.org, then copy)
