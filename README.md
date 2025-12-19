@@ -35,7 +35,8 @@ linux/Makefile] Err
 2. get 2 files from this repo.
    makefile  -> top of mame dir(mv makefile makefile.org, then copy)
    sdk80.cpp -> src\mame\intel (mv sdk80.cpp sdk80.cpp.org, then copy)
-   build/projects/sdl/mametiny/gmake-linux/Makefile -> same as above.
+   <!--build/projects/sdl/mametiny/gmake-linux/Makefile -> same as above.-->
+   
 3. make
 4. get rom
    name: sdk80.zip
