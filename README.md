@@ -3,7 +3,9 @@ mame tiny build and sdk80 mitigation
 
 mame(tiny) and sdk-80
 <PRE>
-1. mame0251s.exe -> extract to mame folder name (should be).
+1. git clone https://github.com/mamedev/mame.git
+   <!--
+   mame0251s.exe -> extract to mame folder name (should be).
    if you extract to mame0251s folder, then you would get failing
    build.
    https://www.mamedev.org/oldrel.html
@@ -26,11 +28,12 @@ linux/Makefile] Err
     I did 7z used, i suspect this would affect result of above(now testing it cause).
 *** i search "mame string "_WORKING_DIR = os.getcwd()..."]:63: in function '_premake_main'" on google, 
     then one of mitigation revealed, i found "Run make REGENIE=1". Could it fix of above?(testing yet).
---> I swtiched to use this : https://github.com/mamedev/mame/archive/refs/tags/mame0251.tar.gz
+-> I swtiched to use this : https://github.com/mamedev/mame/archive/refs/tags/mame0251.tar.gz
     wget https://github.com/mamedev/mame/archive/refs/tags/mame0251.tar.gz
     gzip -dc mame0251.tar.gz|tar xvf -
     then this extracted. mame-mame0251.
     I prefer use this dirname (and testing it with invoking make).
+-->fixed previous notice, that were incorrect...Sorry.(get newest source).
 
 2. get 2 files from this repo.
    makefile  -> top of mame dir(mv makefile makefile.org, then copy)
