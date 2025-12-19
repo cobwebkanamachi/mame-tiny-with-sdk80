@@ -51,6 +51,7 @@ linux/Makefile] Error 1
        if you produce asm file from this, you would use vim or regexp to edit remove page headers
        and redundant strings.
 </PRE>
+       <A><img src="https://github.com/cobwebkanamachi/mame-tiny-with-sdk80/blob/main/hilo.jpg">behavior of HILO affected version</A>
 residue continues here (2025/12/19 initiated)
 Enjoy!
 
