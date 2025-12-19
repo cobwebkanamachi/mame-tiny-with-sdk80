@@ -7,8 +7,8 @@ mame(tiny) and sdk-80
    if you extract to mame0251s folder, then you would get failing
    build.
    https://www.mamedev.org/oldrel.html
-  
- https://github.com/mamedev/mame/releases/download/mame0251/mame0251s.exe
+   then get bellow above link for 0251s(s meant "source archive").
+   https://github.com/mamedev/mame/releases/download/mame0251/mame0251s.exe
    failure symptom:
     Error: invalid option 'with-emulator'
    stack traceback:
@@ -20,7 +20,8 @@ linux/Makefile] Error 1
 
 *** annoyed regenerate this error. please wait to debug this by me. sorry.
 *** cp -rp /mnt/c/Users/user/Downloads/mame.org/build /mnt/c/Users/user/Downloads/mame/build
-*** testify residue procedures. 2025/12/19
+*** testify residue procedures. 2025/12/19 I forgot how to make it or fix it.
+*** I get how to fix above, i will note here.
    
 2. get 2 files from this repo.
    makefile  -> top of mame dir(mv makefile makefile.org, then copy)
