@@ -16,7 +16,7 @@ mame(tiny) and sdk-80
         [string "_WORKING_DIR        = os.getcwd()..."]:63: in     
    function '_premake_main'
    gmake: *** [makefile:1246: build/projects/sdl/mametiny/gmake- 
-linux/Makefile] Error 1
+linux/Makefile] Err
 
 *** annoyed regenerate this error. please wait to debug this by me. sorry.
 *** cp -rp /mnt/c/Users/user/Downloads/mame.org/build /mnt/c/Users/user/Downloads/mame/build
@@ -26,6 +26,11 @@ linux/Makefile] Error 1
     I did 7z used, i suspect this would affect result of above(now testing it cause).
 *** i search "mame string "_WORKING_DIR = os.getcwd()..."]:63: in function '_premake_main'" on google, 
     then one of mitigation revealed, i found "Run make REGENIE=1". Could it fix of above?(testing yet).
+--> I swtiched to use this : https://github.com/mamedev/mame/archive/refs/tags/mame0251.tar.gz
+    wget https://github.com/mamedev/mame/archive/refs/tags/mame0251.tar.gz
+    gzip -dc mame0251.tar.gz|tar xvf -
+    then this extracted. mame-mame0251.
+    I prefer use this dirname (and testing it with invoking make).
 
 2. get 2 files from this repo.
    makefile  -> top of mame dir(mv makefile makefile.org, then copy)
