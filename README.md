@@ -18,6 +18,7 @@ mame(tiny) and sdk-80
    gmake: *** [makefile:1246: build/projects/sdl/mametiny/gmake- 
 linux/Makefile] Error 1
 
+*** annoyed regenerate this error. please wait to debug this by me. sorry.
 
 2. get 2 files from this repo.
    makefile  -> top of mame dir(mv makefile makefile.org, then copy)
