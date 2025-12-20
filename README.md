@@ -38,6 +38,7 @@ linux/Makefile] Err
 2. get 2 files from this repo.
    makefile  -> top of mame dir(mv makefile makefile.org, then copy)
    sdk80.cpp -> src\mame\intel (mv sdk80.cpp sdk80.cpp.org, then copy)
+   if you prefer to download coward_sdk80.zip from a url shown bellow, and set it to roms dir as sdk80.zip
    <!--build/projects/sdl/mametiny/gmake-linux/Makefile -> same as above.-->
    
 3. make
