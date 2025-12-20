@@ -64,6 +64,10 @@ linux/Makefile] Err
        if you produce asm file from this, you would use vim or regexp to edit remove page headers
        and redundant strings.
        <img src="https://github.com/cobwebkanamachi/mame-tiny-with-sdk80/blob/main/regexp.jpg" alt="lst to asm diff" title="lst to asm diff"><BR>
+
+   5. set rom on roms dir(ex: mame/roms).
+       if it goes wrong, you would see bellow.
+       <img src="https://github.com/cobwebkanamachi/mame-tiny-with-sdk80/blob/main/wontbootROM.jpg" alt="sdk80.zip(rom) error" title="something wrong"><BR>
 </PRE><BR>
 residue continues here (2025/12/19 initiated)<BR>
 <img src="https://github.com/cobwebkanamachi/mame-tiny-with-sdk80/blob/main/helloworld-sdk80-asm.jpg" alt="hello world of sdk-80 in asm(binary)" title="hello world"><BR>
