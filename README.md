@@ -72,6 +72,8 @@ linux/Makefile] Err
 </PRE><BR>
 residue continues here (2025/12/19 initiated)<BR>
 <img src="https://github.com/cobwebkanamachi/mame-tiny-with-sdk80/blob/main/helloworld-sdk80-asm.jpg" alt="hello world of sdk-80 in asm(binary)" title="hello world"><BR>
+<img src="https://github.com/cobwebkanamachi/mame-tiny-with-sdk80/blob/main/c30800.jpg" alt="how to userland binary exec on sdk-80 in asm(binary), this case, 0008h would exec. jmp vector stored on 13fdh." title="hello world"><BR>
+
 Enjoy!
 
  
