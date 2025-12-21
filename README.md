@@ -81,8 +81,8 @@ c3 08 00
 (ESC key down)
 G
 </PRE><BR>
-helloworld2.hex: load helloworld2.hex, 0x1000 on debugger console of mame(tiny).
-i will write here for how to make this step by step in several days(perhaps).
+helloworld2.hex: load helloworld2.hex, 0x1000 on debugger console of mame(tiny).<BR>
+i will write here for how to make this step by step in several days(perhaps).<BR>
 <img src="https://github.com/cobwebkanamachi/mame-tiny-with-sdk80/blob/main/IMG_3768.JPG" alt="how to operate on sdk-80 ui" title="how to operate sdk-80"><BR>
 <img src="https://github.com/cobwebkanamachi/mame-tiny-with-sdk80/blob/main/IMG_3769.JPG" alt="how to operate on debug console" title="how to operate debugger console"><BR>
 
