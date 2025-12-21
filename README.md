@@ -80,7 +80,9 @@ I13fd
 c3 08 00
 (ESC key down)
 G
-</PRE>
+</PRE><BR>
+helloworld2.hex: load helloworld2.hex, 0x1000 on debugger console of mame(tiny).
+i will write here for how to make this step by step in several days(perhaps).
 Enjoy!
 
  
