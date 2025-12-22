@@ -102,6 +102,7 @@ please do this.
 8) voila! you could enter patb!<BR>
 <img src="https://github.com/cobwebkanamachi/mame-tiny-with-sdk80/blob/main/utpatbruns.jpg " alt="sdk-80 ut patb runs" title="sdk-80 ut patb runs"><BR>
 
+Sorry, no warranty.
 Enjoy!
  
 
