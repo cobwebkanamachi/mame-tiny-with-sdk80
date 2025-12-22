@@ -86,8 +86,22 @@ i will write here for how to make this step by step in several days(perhaps).<BR
 <img src="https://github.com/cobwebkanamachi/mame-tiny-with-sdk80/blob/main/IMG_3768.JPG" alt="how to operate on sdk-80 ui" title="how to operate sdk-80"><BR>
 <img src="https://github.com/cobwebkanamachi/mame-tiny-with-sdk80/blob/main/IMG_3769.JPG" alt="how to operate on debug console" title="how to operate debugger console"><BR>
 
+2025/12/22:
+I finally could invoke UT patb on sdk-80.
+please do this.
+1) add PTBCPM2.bin to sdk80.zip
+2) edit sdk80.cpp ROM_LOAD( "PTBCPM2.bin", 0x0400, 0x079d, ... you can do after this by yourself.
+   HINT: run and edit and run...
+4) make
+5) ./tiny -debug
+6) load ram.bin, 1000
+7) I13fd
+   c3 00 04
+   (ESC key holddown)
+   G0400
+8) voila! you could enter patb!
+ 
 Enjoy!
-
  
 
    
