@@ -92,6 +92,15 @@ please do this.
 1) add PTBCPM2.bin to sdk80.zip
 2) edit sdk80.cpp ROM_LOAD( "PTBCPM2.bin", 0x0400, 0x079d, ... you can do after this by yourself.
    HINT: run and edit and run...
+   and ram,rom size tweak. I use this bellow.
+   void sdk80_state::sdk80_mem(address_map &map)
+   {
+        map.unmap_value_high();
+        //map(0x0000, 0x0fff).rom();
+        map(0x0000, 0x0fff).rom();
+        //map(0x1000, 0x13ff).ram();
+        map(0x1000, 0x1fff).ram();
+   }
 4) make
 5) ./tiny -debug
 6) load ram.bin, 1000
