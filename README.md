@@ -99,8 +99,9 @@ please do this.
    c3 00 04
    (ESC key holddown)
    G0400
-8) voila! you could enter patb!
- 
+8) voila! you could enter patb!<BR>
+<img src="https://github.com/cobwebkanamachi/mame-tiny-with-sdk80/blob/main/utpatbruns.jpg " alt="sdk-80 ut patb runs" title="sdk-80 ut patb runs"><BR>
+
 Enjoy!
  
 
